@@ -1,0 +1,10 @@
+C:\Users\m303\Desktop\114_1_C_Sharp\114_09_10\HelloWork\HelloWork\bin\Debug\HelloWork.exe.config
+C:\Users\m303\Desktop\114_1_C_Sharp\114_09_10\HelloWork\HelloWork\bin\Debug\HelloWork.exe
+C:\Users\m303\Desktop\114_1_C_Sharp\114_09_10\HelloWork\HelloWork\bin\Debug\HelloWork.pdb
+C:\Users\m303\Desktop\114_1_C_Sharp\114_09_10\HelloWork\HelloWork\obj\Debug\HelloWork.csproj.AssemblyReference.cache
+C:\Users\m303\Desktop\114_1_C_Sharp\114_09_10\HelloWork\HelloWork\obj\Debug\HelloWork.Form1.resources
+C:\Users\m303\Desktop\114_1_C_Sharp\114_09_10\HelloWork\HelloWork\obj\Debug\HelloWork.Properties.Resources.resources
+C:\Users\m303\Desktop\114_1_C_Sharp\114_09_10\HelloWork\HelloWork\obj\Debug\HelloWork.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\114_1_C_Sharp\114_09_10\HelloWork\HelloWork\obj\Debug\HelloWork.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\114_1_C_Sharp\114_09_10\HelloWork\HelloWork\obj\Debug\HelloWork.exe
+C:\Users\m303\Desktop\114_1_C_Sharp\114_09_10\HelloWork\HelloWork\obj\Debug\HelloWork.pdb
