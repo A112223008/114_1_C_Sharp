@@ -1,0 +1,72 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Change_Counter
+{
+    public partial class Form1 : Form
+    {
+        //定義常數，分別代表 5 元、10 元、25 元、50 元硬幣的金額
+        const decimal FIVE_CENTS = 5.0m; //5元硬幣
+        const decimal TEN_CENTS = 10.0m; //10元硬幣
+        const decimal TWENTY_FIVE_CENTS = 25.0m; //25元硬幣
+        const decimal FIFTY_CENTS = 50.0m; //50元硬幣
+
+        // 宣告一個欄位來儲存總金額
+        private decimal total;
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        // 當使用者點擊 5 元硬幣圖片時執行
+        private void fiveCentsPictureBox_Click(object sender, EventArgs e)
+        {            
+            // 將 5 元加到總金額
+            total += 5;
+            // 更新顯示總金額的標籤
+            totalLabel.Text = total.ToString();
+        }
+
+        // 當使用者點擊 10 元硬幣圖片時執行
+        private void tenCentsPictureBox_Click(object sender, EventArgs e)
+        {
+            // 將 10 元加到總金額
+            total += 10;
+            // 更新顯示總金額的標籤
+            totalLabel.Text = total.ToString();
+        }
+
+        // 當使用者點擊 25 元硬幣圖片時執行
+        private void twentyFiveCentsPictureBox_Click(object sender, EventArgs e)
+        {
+            // 將 25 元加到總金額
+            total += 25;
+            // 更新顯示總金額的標籤
+            totalLabel.Text = total.ToString();
+        }
+
+        // 當使用者點擊 50 元硬幣圖片時執行
+        private void fiftyCentsPictureBox_Click(object sender, EventArgs e)
+        {
+            // 將 50 元加到總金額
+            total += 50;
+            // 更新顯示總金額的標籤
+            totalLabel.Text = total.ToString();
+        }
+
+        // 當使用者點擊離開按鈕時執行
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // 關閉視窗
+            this.Close();
+        }
+    }
+}
