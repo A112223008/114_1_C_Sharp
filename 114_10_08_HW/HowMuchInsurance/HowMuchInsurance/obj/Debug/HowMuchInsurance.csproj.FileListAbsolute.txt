@@ -1,0 +1,11 @@
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\HowMuchInsurance\HowMuchInsurance\bin\Debug\HowMuchInsurance.exe.config
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\HowMuchInsurance\HowMuchInsurance\bin\Debug\HowMuchInsurance.exe
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\HowMuchInsurance\HowMuchInsurance\bin\Debug\HowMuchInsurance.pdb
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\HowMuchInsurance\HowMuchInsurance\obj\Debug\HowMuchInsurance.csproj.AssemblyReference.cache
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\HowMuchInsurance\HowMuchInsurance\obj\Debug\HowMuchInsurance.Form1.resources
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\HowMuchInsurance\HowMuchInsurance\obj\Debug\HowMuchInsurance.Properties.Resources.resources
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\HowMuchInsurance\HowMuchInsurance\obj\Debug\HowMuchInsurance.csproj.GenerateResource.cache
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\HowMuchInsurance\HowMuchInsurance\obj\Debug\HowMuchInsurance.csproj.CoreCompileInputs.cache
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\HowMuchInsurance\HowMuchInsurance\obj\Debug\HowMuchInsurance.exe
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\HowMuchInsurance\HowMuchInsurance\obj\Debug\HowMuchInsurance.pdb
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\HowMuchInsurance\HowMuchInsurance\obj\Debug\HowMuchInsurance.exe.config

@@ -1,0 +1,11 @@
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\CalorieCounter\CalorieCounter\bin\Debug\CalorieCounter.exe.config
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\CalorieCounter\CalorieCounter\bin\Debug\CalorieCounter.exe
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\CalorieCounter\CalorieCounter\bin\Debug\CalorieCounter.pdb
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\CalorieCounter\CalorieCounter\obj\Debug\CalorieCounter.csproj.AssemblyReference.cache
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\CalorieCounter\CalorieCounter\obj\Debug\CalorieCounter.Form1.resources
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\CalorieCounter\CalorieCounter\obj\Debug\CalorieCounter.Properties.Resources.resources
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\CalorieCounter\CalorieCounter\obj\Debug\CalorieCounter.csproj.GenerateResource.cache
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\CalorieCounter\CalorieCounter\obj\Debug\CalorieCounter.csproj.CoreCompileInputs.cache
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\CalorieCounter\CalorieCounter\obj\Debug\CalorieCounter.exe
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\CalorieCounter\CalorieCounter\obj\Debug\CalorieCounter.pdb
+C:\Users\shu\Desktop\114_1_C_Sharp\114_10_08_HW\CalorieCounter\CalorieCounter\obj\Debug\CalorieCounter.exe.config
