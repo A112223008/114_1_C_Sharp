@@ -1,0 +1,11 @@
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\Card\Card\bin\Debug\Card.exe.config
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\Card\Card\bin\Debug\Card.exe
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\Card\Card\bin\Debug\Card.pdb
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\Card\Card\obj\Debug\Card.csproj.AssemblyReference.cache
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\Card\Card\obj\Debug\Card.Form1.resources
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\Card\Card\obj\Debug\Card.Properties.Resources.resources
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\Card\Card\obj\Debug\Card.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\Card\Card\obj\Debug\Card.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\Card\Card\obj\Debug\Card.exe
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\Card\Card\obj\Debug\Card.pdb
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\Card\Card\obj\Debug\Card.exe.config

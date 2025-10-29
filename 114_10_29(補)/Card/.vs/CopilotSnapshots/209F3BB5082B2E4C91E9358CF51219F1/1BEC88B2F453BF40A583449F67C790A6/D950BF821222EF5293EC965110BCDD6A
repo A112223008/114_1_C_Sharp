@@ -1,0 +1,85 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Reflection.Emit;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Card
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // 使用 Tag 儲存卡片名稱，Card_Click 會優先讀取 Tag
+            picCard1.Tag = "梅花 2";
+            picCard2.Tag = "方塊 10";
+            picCard3.Tag = "紅心 7";
+            picCard4.Tag = "紅心 K";
+            picCard5.Tag = "黑桃 A";
+
+            lblCardName.Text = "請點選一張卡牌以查看名稱";
+        }
+        private void picCard1_Click(object sender, EventArgs e)
+        {
+            lblCardName.Text = "梅花 2";
+        }
+
+        private void picCard2_Click(object sender, EventArgs e)
+        {
+            lblCardName.Text = "方塊 10";
+        }
+
+        private void picCard3_Click(object sender, EventArgs e)
+        {
+            lblCardName.Text = "紅心 7";
+        }
+
+        private void picCard4_Click(object sender, EventArgs e)
+        {
+            lblCardName.Text = "紅心 K";
+        }
+
+        private void picCard5_Click(object sender, EventArgs e)
+        {
+            lblCardName.Text = "黑桃 A";
+        }
+        private void Card_Click(object sender, EventArgs e)
+        {
+            var clickedCard = sender as PictureBox;
+            if (clickedCard == null)
+            {
+                return;
+            }
+
+            // 先嘗試從 Tag 取得卡牌名稱（在 Form1_Load 設定）
+            var tagName = clickedCard.Tag as string;
+            if (!string.IsNullOrEmpty(tagName))
+            {
+                lblCardName.Text = tagName;
+                return;
+            }
+
+            // 若沒有 Tag，嘗試從 ImageLocation 推斷檔名 (可能為 null)
+            if (!string.IsNullOrEmpty(clickedCard.ImageLocation))
+            {
+                string cardFile = System.IO.Path.GetFileNameWithoutExtension(clickedCard.ImageLocation);
+                string cardName = cardFile.Replace("_", " ");
+                lblCardName.Text = cardName; // 例如 "2 of clubs"
+                return;
+            }
+
+            // 最後的預設文字
+            lblCardName.Text = "未知卡牌";
+        }
+    }
+}
