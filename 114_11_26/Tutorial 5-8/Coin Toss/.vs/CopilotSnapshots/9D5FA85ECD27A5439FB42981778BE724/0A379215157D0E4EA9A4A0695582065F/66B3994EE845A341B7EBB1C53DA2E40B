@@ -1,0 +1,178 @@
+﻿namespace Coin_Toss
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.tailsPictureBox = new System.Windows.Forms.PictureBox();
+            this.headsPictureBox = new System.Windows.Forms.PictureBox();
+            this.tossButton = new System.Windows.Forms.Button();
+            this.exitButton = new System.Windows.Forms.Button();
+            // 新增：標題與數值顯示用的 Label
+            this.tailsTitleLabel = new System.Windows.Forms.Label();
+            this.headsTitleLabel = new System.Windows.Forms.Label();
+            this.tailsCountLabel = new System.Windows.Forms.Label();
+            this.headsCountLabel = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.tailsPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.headsPictureBox)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // tailsPictureBox
+            // 
+            // 以下為「反面」圖片框的初始化設定。
+            // 說明：利用 PictureBox 顯示硬幣的反面圖，預設為隱藏，與正面 PictureBox 疊放使用。
+            this.tailsPictureBox.Image = global::Coin_Toss.Properties.Resources.Tails1;
+            // 調整位置與尺寸以配合 18pt 的字型與較大的按鈕空間
+            this.tailsPictureBox.Location = new System.Drawing.Point(79, 84);
+            this.tailsPictureBox.Name = "tailsPictureBox";
+            this.tailsPictureBox.Size = new System.Drawing.Size(210, 210);
+            this.tailsPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.tailsPictureBox.TabIndex = 1;
+            this.tailsPictureBox.TabStop = false;
+            // 一開始顯示為 false，只有當擲到反面時才顯示
+            this.tailsPictureBox.Visible = false;
+            // 
+            // headsPictureBox
+            // 
+            // 以下為「正面」圖片框的初始化設定。
+            // 說明：利用 PictureBox 顯示硬幣的正面圖，預設為可見，與反面 PictureBox 疊放使用。
+            this.headsPictureBox.Image = global::Coin_Toss.Properties.Resources.Heads1;
+            this.headsPictureBox.Location = new System.Drawing.Point(344, 84);
+            this.headsPictureBox.Name = "headsPictureBox";
+            this.headsPictureBox.Size = new System.Drawing.Size(210, 210);
+            this.headsPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.headsPictureBox.TabIndex = 0;
+            this.headsPictureBox.TabStop = false;
+            // 
+            // tossButton
+            // 
+            // 以下為「擲硬幣」按鈕的初始化設定。
+            // 說明：按下此按鈕會執行擲硬幣的動作（事件處理在 Form1.cs 中定義）。
+            // 將按鈕文字改為繁體中文，並設定字型為 18pt 以符合使用者需求。
+            this.tossButton.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            // 將按鈕向下移動，讓出顯示次數的 Label 空間
+            this.tossButton.Location = new System.Drawing.Point(79, 380);
+            this.tossButton.Name = "tossButton";
+            this.tossButton.Size = new System.Drawing.Size(172, 45);
+            this.tossButton.TabIndex = 2;
+            this.tossButton.Text = "擲硬幣";
+            this.tossButton.UseVisualStyleBackColor = true;
+            this.tossButton.Click += new System.EventHandler(this.tossButton_Click);
+            // 
+            // exitButton
+            // 
+            // 以下為「離開/退出」按鈕的初始化設定。
+            // 說明：按下此按鈕會關閉表單。
+            this.exitButton.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.exitButton.Location = new System.Drawing.Point(344, 380);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(124, 45);
+            this.exitButton.TabIndex = 3;
+            this.exitButton.Text = "離開";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
+            // tailsTitleLabel
+            // 
+            // 以下為反面次數的標題 Label，顯示文字 "反面次數"
+            this.tailsTitleLabel.AutoSize = true;
+            this.tailsTitleLabel.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.tailsTitleLabel.Location = new System.Drawing.Point(79, 310);
+            this.tailsTitleLabel.Name = "tailsTitleLabel";
+            this.tailsTitleLabel.Size = new System.Drawing.Size(110, 30);
+            this.tailsTitleLabel.TabIndex = 4;
+            this.tailsTitleLabel.Text = "反面次數";
+            // 
+            // tailsCountLabel            
+            // 以下為反面次數的數值 Label，初始為 0，後續由程式更新顯示。
+            this.tailsCountLabel.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.tailsCountLabel.Location = new System.Drawing.Point(79, 340);
+            this.tailsCountLabel.Size = new System.Drawing.Size(172, 30);
+            this.tailsCountLabel.TabIndex = 5;
+            this.tailsCountLabel.Text = "0";
+            this.tailsCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // headsTitleLabel
+            // 
+            // 以下為正面次數的標題 Label，顯示文字 "正面次數"
+            this.headsTitleLabel.AutoSize = true;
+            this.headsTitleLabel.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.headsTitleLabel.Location = new System.Drawing.Point(344, 310);
+            this.headsTitleLabel.Name = "headsTitleLabel";
+            this.headsTitleLabel.Size = new System.Drawing.Size(110, 30);
+            this.headsTitleLabel.TabIndex = 6;
+            this.headsTitleLabel.Text = "正面次數";
+            // 
+            // headsCountLabel            
+            // 以下為正面次數的數值 Label，初始為 0，後續由程式更新顯示。
+            this.headsCountLabel.Location = new System.Drawing.Point(344, 340);
+            this.headsCountLabel.Name = "headsCountLabel";
+            this.headsCountLabel.Size = new System.Drawing.Size(124, 30);
+            this.headsCountLabel.TabIndex = 7;
+            this.headsCountLabel.Text = "0";
+            this.headsCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Form1            
+            // 以下為表單本身的初始化設定。
+            // 說明：設定表單的文字（標題）為繁體中文、設定整體字型為 18pt，並調整視窗大小以容納較大的控制項。
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(805, 551);
+            // 將控制項依序加入表單，注意加入順序會影響疊放順序
+            this.Controls.Add(this.exitButton);
+            this.Controls.Add(this.tossButton);
+            this.Controls.Add(this.headsCountLabel);
+            this.Controls.Add(this.headsTitleLabel);
+            this.Controls.Add(this.tailsCountLabel);
+            this.Controls.Add(this.tailsTitleLabel);
+            this.Controls.Add(this.headsPictureBox);
+            this.Controls.Add(this.tailsPictureBox);
+            this.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Name = "Form1";
+            this.Text = "擲硬幣範例";
+            ((System.ComponentModel.ISupportInitialize)(this.tailsPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.headsPictureBox)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.PictureBox headsPictureBox;
+        private System.Windows.Forms.PictureBox tailsPictureBox;
+        private System.Windows.Forms.Button tossButton;
+        private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.ToolTip toolTip1;
+        // 新增的 Label 欄位，分別為標題與數值顯示
+        private System.Windows.Forms.Label tailsTitleLabel;
+        private System.Windows.Forms.Label headsTitleLabel;
+        private System.Windows.Forms.Label tailsCountLabel;
+        private System.Windows.Forms.Label headsCountLabel;
+    }
+}
