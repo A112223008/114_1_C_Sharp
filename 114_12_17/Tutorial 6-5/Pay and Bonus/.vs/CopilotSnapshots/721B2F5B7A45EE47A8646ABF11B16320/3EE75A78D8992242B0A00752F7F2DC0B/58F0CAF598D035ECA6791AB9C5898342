@@ -1,0 +1,77 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Pay_and_Bonus
+{
+    public partial class Form1 : Form
+    {
+        // 提撥比率的常數欄位
+        private const decimal CONTRIB_RATE = 0.05m;
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        // InputIsValid 方法會將使用者輸入轉換並儲存在參數（以參考傳遞）中。
+        // 如果轉換成功，方法回傳 true；否則回傳 false。
+
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            decimal grossPay = 0.0m;
+            decimal bonus;
+            decimal contribution;
+
+            if(InputIsValid(out grossPay, out bonus))
+            {
+                // 計算提撥金額。
+                contribution = CONTRIB_RATE * (grossPay + bonus);
+                contributionLabel.Text = contribution.ToString("C");
+
+            }
+            else
+            {
+                // 顯示錯誤訊息。
+                MessageBox.Show("請輸入有效的數值。", "輸入錯誤");
+            }
+        }
+        private bool InputIsValid(out decimal grossPay, out decimal bonus)
+        {
+            bool inputIsValid = false;
+            // 嘗試將使用者輸入轉換為 decimal。
+            if (!decimal.TryParse(grossPayTextBox.Text, out grossPay))
+            {
+                if (!decimal.TryParse(bonusTextBox.Text, out bonus))
+                {
+                    inputIsValid = true;
+                }
+                else
+                {
+                    MessageBox.Show("請輸入有效的數值。", "輸入錯誤");
+                    //inputIsValid = false;
+                }
+            }
+            else
+            {
+                MessageBox.Show("請輸入有效的數值。", "輸入錯誤");
+                //inputIsValid = false;
+                bonus = 0;
+            }
+            return inputIsValid;
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // 關閉表單。
+            this.Close();
+        }
+    }
+}
