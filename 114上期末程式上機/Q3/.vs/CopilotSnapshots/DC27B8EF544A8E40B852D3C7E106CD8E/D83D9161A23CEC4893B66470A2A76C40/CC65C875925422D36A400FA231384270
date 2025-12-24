@@ -1,0 +1,176 @@
+﻿namespace Q3
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// 設計工具所需的變數。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        // Added control declarations
+        private System.Windows.Forms.TextBox tbxNum1;
+        private System.Windows.Forms.TextBox tbxNum2;
+        private System.Windows.Forms.TextBox tbxNum3;
+        private System.Windows.Forms.TextBox tbxNum4;
+        private System.Windows.Forms.Button btnGenerate;
+        private System.Windows.Forms.Button btnDraw;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.ListBox lstResults;
+
+        /// <summary>
+        /// 清除任何使用中的資源。
+        /// </summary>
+        /// <param name="disposing">如果應該處置受控資源則為 true，否則為 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form 設計工具產生的程式碼
+
+        /// <summary>
+        /// 此為設計工具支援所需的方法 - 請勿使用程式碼編輯器修改
+        /// 這個方法的內容。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.tbxNum1 = new System.Windows.Forms.TextBox();
+            this.tbxNum2 = new System.Windows.Forms.TextBox();
+            this.tbxNum3 = new System.Windows.Forms.TextBox();
+            this.tbxNum4 = new System.Windows.Forms.TextBox();
+            this.btnGenerate = new System.Windows.Forms.Button();
+            this.btnDraw = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.lstResults = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1102, 693);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            // 
+            // Common font for controls
+            // 
+            System.Drawing.Font commonFont = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // tbxNum1
+            // 
+            this.tbxNum1.Font = commonFont;
+            this.tbxNum1.Location = new System.Drawing.Point(20, 20);
+            this.tbxNum1.Name = "tbxNum1";
+            this.tbxNum1.ReadOnly = true;
+            this.tbxNum1.BackColor = System.Drawing.Color.LightGray;
+            this.tbxNum1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbxNum1.Size = new System.Drawing.Size(240, 41);
+            this.tbxNum1.TabIndex = 0;
+            this.tbxNum1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tbxNum2
+            // 
+            this.tbxNum2.Font = commonFont;
+            this.tbxNum2.Location = new System.Drawing.Point(280, 20);
+            this.tbxNum2.Name = "tbxNum2";
+            this.tbxNum2.ReadOnly = true;
+            this.tbxNum2.BackColor = System.Drawing.Color.LightGray;
+            this.tbxNum2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbxNum2.Size = new System.Drawing.Size(240, 41);
+            this.tbxNum2.TabIndex = 1;
+            this.tbxNum2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tbxNum3
+            // 
+            this.tbxNum3.Font = commonFont;
+            this.tbxNum3.Location = new System.Drawing.Point(540, 20);
+            this.tbxNum3.Name = "tbxNum3";
+            this.tbxNum3.ReadOnly = true;
+            this.tbxNum3.BackColor = System.Drawing.Color.LightGray;
+            this.tbxNum3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbxNum3.Size = new System.Drawing.Size(240, 41);
+            this.tbxNum3.TabIndex = 2;
+            this.tbxNum3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tbxNum4
+            // 
+            this.tbxNum4.Font = commonFont;
+            this.tbxNum4.Location = new System.Drawing.Point(800, 20);
+            this.tbxNum4.Name = "tbxNum4";
+            this.tbxNum4.ReadOnly = true;
+            this.tbxNum4.BackColor = System.Drawing.Color.LightGray;
+            this.tbxNum4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbxNum4.Size = new System.Drawing.Size(240, 41);
+            this.tbxNum4.TabIndex = 3;
+            this.tbxNum4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Buttons (horizontal)
+            // 
+            // btnGenerate
+            // 
+            this.btnGenerate.Font = commonFont;
+            this.btnGenerate.Location = new System.Drawing.Point(200, 80);
+            this.btnGenerate.Name = "btnGenerate";
+            this.btnGenerate.Size = new System.Drawing.Size(240, 60);
+            this.btnGenerate.TabIndex = 4;
+            this.btnGenerate.Text = "產生號碼";
+            this.btnGenerate.UseVisualStyleBackColor = true;
+            // 
+            // btnDraw
+            // 
+            this.btnDraw.Font = commonFont;
+            this.btnDraw.Location = new System.Drawing.Point(460, 80);
+            this.btnDraw.Name = "btnDraw";
+            this.btnDraw.Size = new System.Drawing.Size(240, 60);
+            this.btnDraw.TabIndex = 5;
+            this.btnDraw.Text = "開獎號碼";
+            this.btnDraw.UseVisualStyleBackColor = true;
+            this.btnDraw.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDraw.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.btnDraw.FlatAppearance.BorderSize = 2;
+            // 
+            // btnExit
+            // 
+            this.btnExit.Font = commonFont;
+            this.btnExit.Location = new System.Drawing.Point(720, 80);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(240, 60);
+            this.btnExit.TabIndex = 6;
+            this.btnExit.Text = "離開";
+            this.btnExit.UseVisualStyleBackColor = true;
+            // 
+            // lstResults
+            // 
+            this.lstResults.Font = commonFont;
+            this.lstResults.FormattingEnabled = true;
+            this.lstResults.ItemHeight = 36;
+            this.lstResults.Location = new System.Drawing.Point(20, 160);
+            this.lstResults.Name = "lstResults";
+            this.lstResults.Size = new System.Drawing.Size(1020, 508);
+            this.lstResults.TabIndex = 7;
+            this.lstResults.ScrollAlwaysVisible = true;
+            // 
+            // Add controls to form
+            // 
+            this.Controls.Add(this.tbxNum1);
+            this.Controls.Add(this.tbxNum2);
+            this.Controls.Add(this.tbxNum3);
+            this.Controls.Add(this.tbxNum4);
+            this.Controls.Add(this.btnGenerate);
+            this.Controls.Add(this.btnDraw);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.lstResults);
+
+            this.ResumeLayout(false);
+            this.PerformLayout();
+        }
+
+        #endregion
+    }
+}
+
